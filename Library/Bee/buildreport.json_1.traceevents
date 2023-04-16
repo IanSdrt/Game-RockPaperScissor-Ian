@@ -1,0 +1,566 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681625643551790, "dur": 1663722, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625643551821, "dur": 9089, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625643560913, "dur": 31336, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625643592250, "dur": 265953, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625643858205, "dur": 1345210, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625645203418, "dur": 12093, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625645216071, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681625643697167, "dur": 140446, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643698281, "dur": 44728, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643821274, "dur": 4712, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643825989, "dur": 11617, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643826748, "dur": 10137, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643843234, "dur": 1496, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681625643842312, "dur": 2452, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625645216152, "dur": 200, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681625643902821, "dur":1516, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625643904345, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681625643904402, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681625643904420, "dur":418, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681625643904863, "dur":859, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625643905722, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194315, "dur":197, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194512, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194532, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194533, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194538, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194541, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194545, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194546, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194549, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194550, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194555, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194556, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194559, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194560, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194565, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194566, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194570, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194571, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194576, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194577, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194580, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194581, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194586, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194587, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194594, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194606, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645194625, "dur":1500, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681625643905188, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643905732, "dur":5604, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643911346, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681625643911354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643912671, "dur":636, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681625643913313, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681625643913388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643913914, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681625643916637, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1681625643916816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643917573, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1681625643919083, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681625643919231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643919312, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681625643920655, "dur":15475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1681625643936135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625643936148, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1681625643939076, "dur":80706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644019790, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644019804, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644021616, "dur":45688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644067310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644067331, "dur":9785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644077209, "dur":62209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644139426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644139440, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644141011, "dur":43131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644184150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644184164, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644186123, "dur":79002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644265129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644265139, "dur":5588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644270802, "dur":29307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644300114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644300126, "dur":8019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644308219, "dur":22983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644331207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644331218, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644333558, "dur":222026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644555590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644555603, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644558605, "dur":176142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644734755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625644734769, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625644736754, "dur":292604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625645029368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681625645029382, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681625645031983, "dur":162330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625643905251, "dur":497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625643905748, "dur":5600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625643911349, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681625643911648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625643922582, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681625643924847, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1681625643925005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625643925021, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1681625643927337, "dur":74389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor.exe" }}
+,{ "pid":12345, "tid":2, "ts":1681625644001735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644001747, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor.exe" }}
+,{ "pid":12345, "tid":2, "ts":1681625644004586, "dur":26192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644030784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644030796, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644032704, "dur":114678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644147389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644147402, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644149467, "dur":26052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644175525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644175536, "dur":10046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644185655, "dur":28229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644213893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644213907, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644216072, "dur":56334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644272440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644272454, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644273988, "dur":27361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644301354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644301364, "dur":7195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644308624, "dur":20283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644328914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644328928, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644333324, "dur":105400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644438731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644438743, "dur":6967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644445809, "dur":58054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644503869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644503881, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644505786, "dur":176850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644682644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644682658, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644684288, "dur":308281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644992577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681625644992590, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681625644994306, "dur":200001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625643905211, "dur":524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625643905736, "dur":5611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625643911348, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681625643911586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625643913892, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681625643917568, "dur":17855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681625643935429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625643935469, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681625643939633, "dur":64392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644004150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644004162, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644006118, "dur":50376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644056503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644056516, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644057983, "dur":217165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644275154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644275165, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644278068, "dur":86124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644364197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644364208, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644365494, "dur":157638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644523139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644523151, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644525115, "dur":257437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644782560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644782606, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644784648, "dur":187908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644972562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681625644972574, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681625644975080, "dur":219230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625643905295, "dur":461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625643905756, "dur":5583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625643911347, "dur":44611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681625643955965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625643956368, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681625643957930, "dur":22606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625643980547, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625643980733, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625643984268, "dur":166494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644150767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644150778, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644152083, "dur":83582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644235672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644235686, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644237904, "dur":23270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644261182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644261197, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644262791, "dur":43959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644306759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644306772, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644309805, "dur":60616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644370427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644370440, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644376589, "dur":94502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644471098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644471112, "dur":8187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644479364, "dur":1274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644480644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644480656, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644482720, "dur":53458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644536186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644536199, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644537847, "dur":286762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644824618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644824630, "dur":54666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644879360, "dur":47430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644926797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644926810, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681625644928681, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644928928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644929796, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644931362, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1681625644931439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644931514, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1681625644933548, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681625644933618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644933628, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681625644935504, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644935573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644935583, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644941917, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644941988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644941999, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644943383, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681625644943466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644943476, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681625644946473, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644946548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644946560, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644949554, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644949612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644949623, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644951748, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644951970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644951981, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644953568, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644954568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644954577, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681625644955958, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644956025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644956033, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644957401, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644957462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644957471, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681625644958833, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644958912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644958919, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681625644961053, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681625644961280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681625644961288, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681625644963329, "dur":230983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625643905234, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625643905743, "dur":5603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625643911349, "dur":19057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1681625643930411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625643930430, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1681625643934154, "dur":41806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625643975967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625643976337, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625643977661, "dur":49277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644026945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644026958, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644030235, "dur":34072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644064314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644064327, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644065750, "dur":41586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644107342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644107354, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644111104, "dur":64806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644175916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644175927, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644177522, "dur":26579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644204107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644204119, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644206030, "dur":39106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644245145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644245191, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644247107, "dur":36105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644283220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644283234, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644286834, "dur":30854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644317728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644317742, "dur":13597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644331409, "dur":56300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644387717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644387730, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644390112, "dur":158657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644548777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644548790, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644550810, "dur":263257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644814074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625644814087, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625644816468, "dur":375413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625645191886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681625645191893, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681625645194281, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1681625645194285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625643905267, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625643905753, "dur":5589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625643911346, "dur":18734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1681625643930085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625643930108, "dur":6050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1681625643936259, "dur":45448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625643981713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625643981724, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625643983939, "dur":38566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644022511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644022523, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644023926, "dur":110804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644134740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644134753, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644136201, "dur":128845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644265054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644265068, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644268726, "dur":157816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644426550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644426563, "dur":19926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644446549, "dur":27346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644473930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644473945, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644479612, "dur":1082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644480699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644480709, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644482791, "dur":1299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644484096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644484116, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644485927, "dur":67898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644553865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644553880, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644559779, "dur":185583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644745370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644745383, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644747362, "dur":197390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644944759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644944773, "dur":8803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681625644953648, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681625644953724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644953734, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681625644955415, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681625644955508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644955517, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681625644956918, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1681625644956994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644957002, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1681625644958555, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681625644958615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644958624, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681625644960547, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1681625644960615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681625644960623, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1681625644963214, "dur":231097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625643905295, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625643905761, "dur":5605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625643911366, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681625643911630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625643921337, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681625643923245, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1681625643923610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625643923621, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1681625643925948, "dur":747889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681625644673845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625644673856, "dur":29944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681625644703875, "dur":267847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681625644971729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681625644971744, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681625644975490, "dur":218818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625643905362, "dur":411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625643905773, "dur":5577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625643911351, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681625643911660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625643922508, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681625643925379, "dur":80836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644006220, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644006763, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644010991, "dur":19871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644030868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644030878, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644032987, "dur":24084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644057108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644057119, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644058727, "dur":234018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644292754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644292766, "dur":7614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644300446, "dur":170718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644471169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644471179, "dur":6545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644477792, "dur":98424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644576223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644576237, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644577868, "dur":52897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644630773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644630785, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644634424, "dur":161231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644795663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644795676, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644797401, "dur":69621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644867030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625644867042, "dur":10421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625644877521, "dur":171580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625645049109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681625645049123, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681625645050761, "dur":143556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625643905324, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625643905767, "dur":5584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625643911352, "dur":14937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681625643926294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625643926316, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681625643928560, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1681625643928712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625643929314, "dur":17828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1681625643947221, "dur":63175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644010404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644010418, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644012803, "dur":20476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644033285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644033296, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644035444, "dur":88191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644123641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644123651, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644126552, "dur":78033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644204591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644204601, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644206727, "dur":67301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644274034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644274045, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644275609, "dur":25102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644300715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644300725, "dur":8491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644309279, "dur":25666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644334951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644334966, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644336468, "dur":53727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644390200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644390213, "dur":12923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644403199, "dur":1201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644404406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644404418, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644406167, "dur":95526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644501700, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644501715, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644503392, "dur":1061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644504463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644504473, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644507359, "dur":393406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644900772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625644900784, "dur":6402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625644907253, "dur":98108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625645005396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681625645005415, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681625645006755, "dur":187566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625643905389, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625643905780, "dur":5564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625643911347, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1681625643911775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625643923007, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1681625643925408, "dur":233430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644158846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644161126, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644169053, "dur":76126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644245184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644245195, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644247058, "dur":43102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644290168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644290180, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644295065, "dur":71877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644366947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644366958, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644368709, "dur":296583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644665299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644665313, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644667614, "dur":52517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644720139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644720152, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644722726, "dur":94081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644816813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625644816824, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625644818428, "dur":311028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625645129461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681625645129469, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681625645130427, "dur":63898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625643905417, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625643905783, "dur":5557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625643911347, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681625643911588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625643921002, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681625643923192, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681625643923379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625643923389, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681625643926418, "dur":141064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1681625644067487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644067495, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1681625644069803, "dur":53400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644123211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644123224, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644125058, "dur":23892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644148956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644148968, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644150510, "dur":24445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644174964, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644174981, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644176850, "dur":26436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644203294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644203308, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644205316, "dur":90057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644295378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644295390, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644296813, "dur":66114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644362965, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644362980, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644364449, "dur":69821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644434277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644434290, "dur":10911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644445269, "dur":73540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644518836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644518849, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644521547, "dur":162360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644683941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644683953, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644687348, "dur":307147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644994499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681625644994510, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681625644997155, "dur":197167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625643905442, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625643905788, "dur":5561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625643911350, "dur":14968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681625643926322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625643926340, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681625643929543, "dur":101534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644031082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644031092, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644034033, "dur":51822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644085863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644085875, "dur":24906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644110849, "dur":155186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644266041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644266052, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644272032, "dur":25561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644297598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644297609, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644299103, "dur":29838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644328946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644328955, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644333188, "dur":20351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644353546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644353560, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644355374, "dur":41674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644397056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644397070, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644399849, "dur":375321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644775177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644775190, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644777625, "dur":189067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644966700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681625644966713, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/grafi/Documents/Game 10 - Ian rps/RockPaperScissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681625644968611, "dur":225698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681625645197443, "dur":1924, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681625645216416, "dur": 797, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681625645216060, "dur": 1174, "ph": "X", "name": "Write chrome-trace events", "args": {} },
